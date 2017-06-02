@@ -25,11 +25,13 @@
 #include "ar_track_alvar/Camera.h"
 #include "ar_track_alvar/FileFormatUtils.h"
 #include <memory>
+#include <opencv2/calib3d/calib3d.hpp>
 
 using namespace std;
 
 namespace alvar {
 using namespace std;
+using namespace cv;
 
 
 void ProjPoints::Reset() {

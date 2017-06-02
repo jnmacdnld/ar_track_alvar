@@ -23,8 +23,10 @@
 
 #include "ar_track_alvar/Alvar.h"
 #include "ar_track_alvar/Rotation.h"
+#include <opencv2/calib3d/calib3d.hpp>
 
 using namespace std;
+using namespace cv;
 
 namespace alvar {
 using namespace std;

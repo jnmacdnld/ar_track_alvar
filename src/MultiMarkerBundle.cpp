@@ -22,11 +22,13 @@
  */
 
 #include "ar_track_alvar/MultiMarkerBundle.h"
+#include <opencv2/calib3d/calib3d.hpp>
 
 using namespace std;
 
 namespace alvar {
 using namespace std;
+using namespace cv;
 
 MultiMarkerBundle::MultiMarkerBundle(std::vector<int>& indices) 
 	: MultiMarker(indices)
